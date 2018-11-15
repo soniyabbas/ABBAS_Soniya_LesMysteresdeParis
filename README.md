@@ -1,5 +1,8 @@
-# Description du dossier
-Une analyse de livre _Les mystères de Paris_ d'Eugène Sue. Elle a éte effectue dans le cadre du cursus...
+# ABBAS Soniya - Eugène Sue. Les mystères de Paris
 
-# Техte
-La version textuelle de cet ouvrage il est possible de trouver sur [Wikisource](https://fr.wikisource.org/wiki/Les_Mystères_de_Paris)
+#### Devoir à faire - M2 DNHD, Cours Indexation
+
+Ce dossier a fait dans le cadre du cours .... Ici vous retrouverez tous mes travails réalisés.
+[Description]() de dossier.
+
+_ABBAS Soniya_
