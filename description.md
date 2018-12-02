@@ -1,10 +1,11 @@
 # Description du dossier
-Une analyse de livre _Les mystères de Paris_ d'Eugène Sue. Elle a éte effectue dans le cadre du cursus...
+Une analyse de livre _Les mystères de Paris. Tome 1_ d'Eugène Sue a éte effectue dans le cadre du cursus "Histoire de Humanités". L'idée est de retravailler le texte pour ensuite l'analyse avec des outils différents et voir le résultat statistique en visualisations. Tout d'abord, je vous présente toutes les étapes techniques et préparatives avant de commencer l'analyse. Ensuite, je ferai l'observation (de la proccesus d'analyse des données) et leur visualisation en utilisant des différents moyens. Enfin, on finira par une conclusion et la réflexion autour d'une question qui a ete pose dans ce devoir. 
 
-## TXT
-La version textuelle de cet ouvrage il est possible de trouver sur [Wikisource](https://fr.wikisource.org/wiki/Les_Mystères_de_Paris)
+## Première eétape. TXT
+On commence par la récupération des donnees en version textuelle de l'ouvrage. Il est possible de le trouver sur [Wikisource](https://fr.wikisource.org/wiki/Les_Mystères_de_Paris). J'ai pris la première et la deuxième partie car c'est l'ensemble du tome 1.
 
-Avant de commencer à l'analyser, j'ai créé des varables et formaté le texte en utilisant le syntaxe suivante : ...
+Puis, j'ai nettoyé le texte en supprimant les notes et en ajoutant des varables que m'a permis d'encoder le texte et importer dans Iramuteq. Le principe d'encodage est suivante :
+<pam>
 
 Lien vers le fichier [(.txt)](https://github.com/soniyabbas/ABBAS_Soniya_les_mysteres_de_paris/blob/master/Eugene_Sue_%20Les_Myste%CC%80res_de_Paris.txt)
 
