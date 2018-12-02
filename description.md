@@ -9,9 +9,9 @@ Puis, j'ai nettoyé le texte en supprimant les notes et en ajoutant des varables
 > Variable : **** *chapitre1_partie1 <br>
 > _où la première partie du nom est corresponde au chapitre et le deuxième a la partie du tome_
 
-Bilan : 42 variables.
+Bilan : 43 variables.
 
-Lien vers le fichier [(.txt)](https://github.com/soniyabbas/ABBAS_Soniya_les_mysteres_de_paris/blob/master/Eugene_Sue_%20Les_Myste%CC%80res_de_Paris.txt)
+Lien vers le fichier [(.txt)](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/Eugene_Sue_%20Les_Myste%CC%80res_de_Paris.txt)
 
 ## Deuxième étape. EPUB
 J'ai retrouvé la version de ce livre en format .epub sur Wikisource également, pourtant le texte est divisé en partie. Car moi, j'ai pris "Tome 1" qui compose deux parties, j'ai trouvé un autre site [Gutenberg.org](http://www.gutenberg.org/ebooks/18921) qui propose la possibilité de télécharger le livre par tome avec ou sans images. 
@@ -19,3 +19,39 @@ J'ai retrouvé la version de ce livre en format .epub sur Wikisource également,
 Lien vers le fichier [(.epub)](https://github.com/soniyabbas/ABBAS_Soniya_les_mysteres_de_paris/blob/master/Les_Mysteres_de_Paris_tome_1.epub)
 
 ## Troisième étape. Visualisation de données. 
+
+Après le chargement du text dans Iramuteq on peux obtenir la statistique général du texte en .CSV et le résume sous creteries suivants :
+
+```xml
+Nombre de textes : 43 /*(43 variables = chapitres)
+Nombre d'occurrences : 121231
+Nombre de formes : 6747
+Nombre d'appax : 2589 (2.14%des occurrences - 38.37% des formes)
+Moyenne d'occurrence par texte : 2819.33
+```
+![Resume](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/resume.png)
+
+En même temps le logiciel a généré des tableaux .CSV :
+
+- [total.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/total.csv) - la fréquence décroissante des mots au total et leurs types 
+- [formes_actives.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_actives.csv) - les formes les plus actives (les agents pareils : la fréquence et les types)
+- [formes_supplémentaires.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_supple%CC%81mentaires.csv) - les mots supplémentaires - secondaires 
+- [hapax.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/hapax.csv)
+
+De la même façon on peut observer qu'une seule chapitre (ou la groupe des chapitres) et récuperer tous les données sur eux. En exemple j'ai réalisé l'analyse statistique du première chapitre (*chapitre1_partie1) : 
+
+```xml
+Nombre de textes : 1
+Nombre d'occurrences : 2962
+Nombre de formes : 874
+Nombre d'hapax : 563 (19.01%des occurrences - 64.42% des formes)
+Moyenne d'occurrences par texte : 2962.00
+```
+![Resume_chapitre1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/resume_chapitre1.png)
+
+Les tableaux .CSV : 
+
+- [total_chapitre1.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/total_chapitre1.csv) - la fréquence décroissante des mots au total et leurs types 
+- [formes_actives_chapitre1.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_actives_chapitre1.csv) - les formes les plus actives (les agents pareils : la fréquence et les types)
+- [formes_supplémentaires_chapitre1.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_supple%CC%81mentaires_chapitre1.csv) - les mots supplémentaires - secondaires 
+- [hapax_chapitre1.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/hapax_chapitre1.csv)
