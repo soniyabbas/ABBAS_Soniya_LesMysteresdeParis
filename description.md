@@ -40,13 +40,12 @@ En même temps le logiciel a généré des tableaux .CSV :
 
 De la même façon on peut observer qu'une seule chapitre (ou la groupe des chapitres) et récuperer tous les données sur eux. En exemple j'ai réalisé l'analyse statistique du première chapitre (*chapitre1_partie1) : 
 
-```xml
-Nombre de textes : 1
-Nombre d'occurrences : 2962
-Nombre de formes : 874
-Nombre d'hapax : 563 (19.01%des occurrences - 64.42% des formes)
-Moyenne d'occurrences par texte : 2962.00
-```
+> Nombre de textes : 1 <br>
+> Nombre d'occurrences : 2962 <br>
+> Nombre de formes : 874 <br>
+> Nombre d'hapax : 563 (19.01%des occurrences - 64.42% des formes) <br>
+> Moyenne d'occurrences par texte : 2962.00 <br>
+
 ![Resume_chapitre1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/resume_chapitre1.png)
 
 Les tableaux .CSV : 
