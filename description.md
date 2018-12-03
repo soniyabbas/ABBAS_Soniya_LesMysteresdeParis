@@ -23,7 +23,7 @@ Lien vers le fichier [(.epub)](https://github.com/soniyabbas/ABBAS_Soniya_les_my
 ### Statistiques
 Après le chargement du text dans Iramuteq on peux obtenir la statistique général du texte en .CSV et le résume sous creteries suivants :
 
-> Nombre de textes : 43 ```(43 variables = chapitres) <br>
+> Nombre de textes : 43 /*(43 variables = chapitres) <br>
 > Nombre d'occurrences : 121231 <br>
 > Nombre de formes : 6747 <br>
 > Nombre d'appax : 2589 (2.14%des occurrences - 38.37% des formes) <br>
@@ -31,13 +31,15 @@ Après le chargement du text dans Iramuteq on peux obtenir la statistique géné
 
 ![Resume](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/resume.png)
 
+On peut voir sur le graphique la dependence la frequence des mots et la quantité des occurrences. ..._expliquer_
+
 En même temps le logiciel a généré des tableaux .CSV :
 
-- [total.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/total.csv) - la fréquence décroissante des mots au total et leurs types 
+- [total.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/total.csv) - la fréquence décroissante des mots utilisés dans le corpus au total et leurs types 
 - [formes_actives.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_actives.csv) - les formes les plus actives (les agents pareils : la fréquence et les types)
 - [formes_supplémentaires.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_supple%CC%81mentaires.csv) - les mots supplémentaires - secondaires 
-- [hapax.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/hapax.csv)
-
+- [hapax.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/hapax.csv) - le nombre des mots qui ont été utilisé une fois dans le corpus
+ 
 ```xml 
 À noter!
 ```
@@ -58,3 +60,30 @@ Les tableaux .CSV :
 - [formes_actives_chapitre1.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_actives_chapitre1.csv)
 - [formes_supplémentaires_chapitre1.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_supple%CC%81mentaires_chapitre1.csv)
 - [hapax_chapitre1.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/hapax_chapitre1.csv)
+
+### Analyse Factorielle des Correspondances (AFC)
+Ce type d'analyse nous proposer de voir la classification hiérarchique descendantes sur une variable ou l'ensemble de variables. Elle organise les données en deux dimessions pour montrer la difference entre les variables ce que nous permet aussi de voir les liasons entre la frequance et le type de mot. 
+
+![analyse_factorielle_des_correspondances](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances.png)
+
+Ce graphique est réalisé par défaut : la frequance de 10 et deux types de varibles (active et supplementaire). 
+
+![analyse_factorelle_des_correspondances_active](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorelle_des_correspondances_active.png)
+
+Car le premier graphique est peu lisible, j'ai fait un autre avec une frequence de 60 en utilisant seulement les formes actives. Cela nous permet d'étudier le fait qu'il y a des correspondances entre les chapitres.
+
+Le troisieme et le derniere image est la visualisation des modalités suivsntes : *chapitre1_partie1,*chapitre1_partie2, *chapitre22_partie2, *chapitre21_partie1, *chapitre21_partie2, *chapitre19_partie1 et *chapitre19_partie2. L'idée est de voir les correspondances entre ces chapitres et regarder les dimenssions. 
+
+![analyse_factorielle_des_correspondances_modalités](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_modalite%CC%81s.png)
+
+### Nuage de mot
+Cet analyse est assez simple et represente juste une illustration varible à partir des données qu'on utilise. Le sens est de montrer l'ensemble des mots et en fonction de taille sa frequence. 
+
+![nuage](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_1.png)
+> Tous les variables (active et supplementaire).
+
+![nuage-2](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_2.png)
+> Que la variable active.
+
+![nuage-3](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_3.png)
+> Que la variable active du premier chapitre.
