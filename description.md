@@ -66,15 +66,25 @@ Ce type d'analyse nous proposer de voir la classification hiérarchique descenda
 
 ![analyse_factorielle_des_correspondances](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances.png)
 
-Ce graphique est réalisé par défaut : la frequance de 10 et deux types de varibles (active et supplementaire). 
+Ce graphique est réalisé par défaut : la frequance de 10 et deux types de varibles (active et supplementaire).
+
+![analyse_factorielle_des_correspondances_chi2](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_chi2.png)
+
+On peut egalement regarder les variables active en changeant la taille de texte proportionnelle au chi2 ce qui finalement exprime par les variables actives.
+
+Car ces deux graphiques sont peu lisible, j'ai fait un autre avec une frequence de 60 en utilisant seulement les formes actives. Cela nous permet d'étudier le fait qu'il y a des correspondances entre les chapitres.
+
+![analyse_factorielle_des_correspondances_active1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_active1.png)
+
+Si on modifie le graphique en appliquant les couleurs, on voit les mots qui sont plus utilisés en fonction deux dimenssions (la taille de texte proportionelle a la masse). 
 
 ![analyse_factorelle_des_correspondances_active](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorelle_des_correspondances_active.png)
 
-Car le premier graphique est peu lisible, j'ai fait un autre avec une frequence de 60 en utilisant seulement les formes actives. Cela nous permet d'étudier le fait qu'il y a des correspondances entre les chapitres.
+La derniere image est la visualisation des modalités suivantes : *chapitre1_partie1,*chapitre1_partie2, *chapitre22_partie2, *chapitre21_partie1 et *chapitre21_partie2. L'idée est de voir les correspondances entre ces chapitres et regarder les dimenssions. 
 
-Le troisieme et le derniere image est la visualisation des modalités suivsntes : *chapitre1_partie1,*chapitre1_partie2, *chapitre22_partie2, *chapitre21_partie1, *chapitre21_partie2, *chapitre19_partie1 et *chapitre19_partie2. L'idée est de voir les correspondances entre ces chapitres et regarder les dimenssions. 
+![analyse_factorielle_des_correspondances_modalités](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_modalite%CC%81s-1.png)
 
-![analyse_factorielle_des_correspondances_modalités](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_modalite%CC%81s.png)
+J'ai appliqué dans ce cas la frequance de 10 en utilisant seulement les formes actives. Comme le résultat on a la ... 
 
 ### Nuage de mot
 Cet analyse est assez simple et represente juste une illustration varible à partir des données qu'on utilise. Le sens est de montrer l'ensemble des mots et en fonction de taille sa frequence. 
