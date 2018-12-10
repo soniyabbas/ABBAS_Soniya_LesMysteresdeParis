@@ -84,16 +84,15 @@ La derniere image est la visualisation des modalités suivantes : *chapitre1_par
 
 ![analyse_factorielle_des_correspondances_modalités](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_modalite%CC%81s-1.png)
 
+![analyse_factorielle_des_correspondances_modalités_video](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_modalite%CC%81s_video.gif)
+
 J'ai appliqué dans ce cas la frequance de 10 en utilisant seulement les formes actives. Comme le résultat on a la ... 
 
 ### Nuage de mot
 Cet analyse est assez simple et represente juste une illustration varible à partir des données qu'on utilise. Le sens est de montrer l'ensemble des mots et en fonction de taille sa frequence. 
 
-![nuage](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_1.png)
-> Tous les variables (active et supplementaire).
+![nuage-1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_1.png)
+> Que la variable active parmis tous les variables.
 
-![nuage-2](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_2.png)
-> Que la variable active.
-
-![nuage-3](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_3.png)
-> Que la variable active du premier chapitre.
+![nuage-comp](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_comp.png)
+> ...
