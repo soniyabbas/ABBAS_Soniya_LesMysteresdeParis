@@ -31,12 +31,12 @@ Après le chargement du text dans Iramuteq on peux obtenir la statistique géné
 
 ![Resume](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/resume.png)
 
-On peut voir sur le graphique la dependence la frequence des mots et la quantité des occurrences. ..._expliquer_
+On peut voir sur le graphique la dependence la frequence des mots et la quantité des occurrences. Rangs les plus élèvés ce sont des mots les plus fréquents. 
 
 En même temps le logiciel a généré des tableaux .CSV :
 
 - [total.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/total.csv) - la fréquence décroissante des mots utilisés dans le corpus au total et leurs types 
-- [formes_actives.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_actives.csv) - les formes les plus actives (les agents pareils : la fréquence et les types)
+- [formes_actives.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_actives.csv) - les formes les plus actives sans des articles, propositions, verbes (être et avoir) etc. (les agents pareils : la fréquence et les types)
 - [formes_supplémentaires.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/formes_supple%CC%81mentaires.csv) - les mots supplémentaires - secondaires 
 - [hapax.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/hapax.csv) - le nombre des mots qui ont été utilisé une fois dans le corpus
  
@@ -62,7 +62,7 @@ Les tableaux .CSV :
 - [hapax_chapitre1.csv](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/fichiers%20CSV/hapax_chapitre1.csv)
 
 ### Analyse Factorielle des Correspondances (AFC)
-Ce type d'analyse nous proposer de voir la classification hiérarchique descendantes sur une variable ou l'ensemble de variables. Elle organise les données en deux dimessions pour montrer la difference entre les variables ce que nous permet aussi de voir les liasons entre la frequance et le type de mot. 
+Ce type d'analyse nous proposer de voir la classification hiérarchique descendantes sur une variable ou l'ensemble de variables. Elle organise les données, après transformation statistique, sous forme de graphiques à deux dimessions pour montrer la difference entre les variables ce que nous permet aussi de voir les liasons entre la frequance et le type de mot (la relation lexicales en gros). 
 
 ![analyse_factorielle_des_correspondances](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances.png)
 
@@ -72,7 +72,7 @@ Ce graphique est réalisé par défaut : la frequance de 10 et deux types de var
 
 On peut egalement regarder les variables active en changeant la taille de texte proportionnelle au chi2 ce qui finalement exprime par les variables actives.
 
-Car ces deux graphiques sont peu lisible, j'ai fait un autre avec une frequence de 60 en utilisant seulement les formes actives. Cela nous permet d'étudier le fait qu'il y a des correspondances entre les chapitres.
+Car ces deux graphiques sont peu lisible, j'ai fait un autre avec une frequence de 60 en utilisant seulement les formes actives. Cela nous permet d'étudier le fait qu'il y a des correspondances entre les chapitres. On met en évidence la distance entre les groupes de mots et hiérarchise l'information contunue dans le texte. 
 
 ![analyse_factorielle_des_correspondances_active1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_active1.png)
 
@@ -81,6 +81,7 @@ Si on modifie le graphique en appliquant les couleurs, on voit les mots qui sont
 ![analyse_factorelle_des_correspondances_active](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorelle_des_correspondances_active.png)
 
 La derniere image est la visualisation des modalités suivantes : *chapitre1_partie1,*chapitre1_partie2, *chapitre22_partie2, *chapitre21_partie1 et *chapitre21_partie2. L'idée est de voir les correspondances entre ces chapitres et regarder les dimenssions. 
+Les couleurs ici representent des chapitres differentes. On peut voir la position des chapitres par rapport aux autres et aussi le placement des chapitres en foction des facteurs. 
 
 ![analyse_factorielle_des_correspondances_modalités](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_factorielle_des_correspondances_modalite%CC%81s-1.png)
 
@@ -95,4 +96,26 @@ Cet analyse est assez simple et represente juste une illustration varible à par
 > Que la variable active parmis tous les variables.
 
 ![nuage-comp](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_comp.png)
-> ...
+> Sur cette image j'ai reuni 3 graphes differents : nuages de mot des variables "chapitre1_partie1", "chapitre1_partie2" et deux chapitre ensemble. Par cette illustration je voulais montrer la quantité des mots les plus representes et la difference des composants entre deux chapitres. 
+
+### Analyse de similitudes (ADS)
+
+L'idée est de présenter la structure des éléments du corpus (comment les mots reliés ensemble). 
+
+#### Indice de coocurrences
+
+Dans ce cas l'analyse calcule combien de fois les mots apparaitre en meme temps. J'ai choisi, tout d'abord, les paramètres par défaut : 2760 formes, la présentation - fruchterman reingold (calculation la distance entre les nœuds).
+
+![analyse_de_similitudes_total](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_de_similitudes_total.png)
+
+Le graphe est peu lisible. C'est pourquoi ensuite, j'ai retenu seulement 283 formes qui sont egales et superieres à 30 en divisant les par communautes :
+
+![analyse_de_similitudes_30](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_de_similitudes_30_color.png)
+
+On peut egalement regrouper par communautés en halos.
+
+![analyse_de_similitudes_commun](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_de_similitudes_commun.png)
+
+Et le dernier graphe represente 183 formes qui sont regroupé par communautés et variables choisis.
+
+![analyse_de_similitudes_par_chapitre](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_de_similitudes_par_chapitre-1.png)
