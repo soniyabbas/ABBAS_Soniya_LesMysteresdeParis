@@ -90,13 +90,20 @@ Les couleurs ici representent des chapitres differentes. On peut voir la positio
 J'ai appliqué dans ce cas la frequance de 10 en utilisant seulement les formes actives. Comme le résultat on a la ... 
 
 ### Nuage de mot
-Cet analyse est assez simple et represente juste une illustration varible à partir des données qu'on utilise. Le sens est de montrer l'ensemble des mots et en fonction de taille sa frequence. 
+Cet analyse est assez simple et represente juste une illustration à partir des données qu'on utilise. Le sens est de montrer l'ensemble des mots avec le plus grand nombre d'occurrence qui est determine par la taille de la police.
 
-![nuage-1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_1.png)
-> Que la variable active parmis tous les variables.
+<p align="center">
+  <img src="https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_1.png">
+</p>
+
+> Que la variable active parmis tous les variables. 
+
+Ici on vois "rodolphe", 'maître", "ecole", "homme" etc. Tous ces mots sont autour de sujet principale de ce livre. 
 
 ![nuage-comp](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/nuage_comp.png)
-> Sur cette image j'ai reuni 3 graphes differents : nuages de mot des variables "chapitre1_partie1", "chapitre1_partie2" et deux chapitre ensemble. Par cette illustration je voulais montrer la quantité des mots les plus representes et la difference des composants entre deux chapitres. 
+> Sur cette image j'ai reuni 3 graphes differents : nuages de mot des variables "chapitre1_partie1", "chapitre1_partie2" et deux chapitre ensemble. 
+
+Par cette illustration je voulais montrer la quantité des mots les plus representes et la difference des composants entre deux chapitres.
 
 ### Analyse de similitudes (ADS)
 
@@ -119,3 +126,25 @@ On peut egalement regrouper par communautés en halos.
 Et le dernier graphe represente 183 formes qui sont regroupé par communautés et variables choisis.
 
 ![analyse_de_similitudes_par_chapitre](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_de_similitudes_par_chapitre-1.png)
+
+Cette visualisation a été réalise a partie d'analyse Reinert.
+
+![analyse_a_partir-dun_mot](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_a_partir_dun_mot.png)
+
+### La méthode Reinert
+
+C'est la classification hiérarchique descendante qui permet regrouper des mots et les reparer sous les thematiques. L'analyse découpe le texte en segment, les regroupe en classe en fonction des composantes (des mots).
+
+Le logiciel nous permet a realiser des visualisation differentes : 
+
+Cette analyse a regroupé mon corpus dans 6 classes. 
+![methode_Reinert_3](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/me%CC%81thode_Reinert_3.png)
+
+Une autre representation motre plus prophondement le regroupage en fonction des thèmes principaux. On voit sur l'image les mots constitutifs de chaque classe.
+
+![methode_Reinert_4](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/me%CC%81thode_Reinert_4.png)
+
+C'est la visualisation lié à l'analyse factorielle de correspondance mais realisée autreument.  
+![methode_Reinert_1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/me%CC%81thode_Reinert_1.png)
+
+![methode_Reinert_2](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/me%CC%81thode_Reinert_2.png)
