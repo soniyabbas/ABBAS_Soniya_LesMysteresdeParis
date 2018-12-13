@@ -121,12 +121,13 @@ Le graphe est peu lisible. C'est pourquoi ensuite, j'ai retenu seulement 283 for
 
 ![analyse_de_similitudes_30](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_de_similitudes_30_color.png)
 Là, on voit que "rodolphe" reste toujours le sujet central de ce livre mais à côté il y a des autres champs lexicaux qui sont liés. 
+>Cette analyse a été pris comme la base pour le graphe de Gephi.
 
 On peut également regrouper par communautés en halos.
 
 ![analyse_de_similitudes_commun](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_de_similitudes_commun.png)
 
-Et le dernier graphe représente 183 formes qui sont regroupées par communautés et variables choisies (notés en légende).
+Et le dernier graphe représente 183 formes qui sont regroupées par communautés et variables choisies (notés en légende) parametré comme _multilevel.community_.
 
 ![analyse_de_similitudes_par_chapitre](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/analyse_de_similitudes_par_chapitre-1.png)
 
@@ -147,7 +148,7 @@ Une autre représentation montre plus profondément le regroupage en fonction de
 
 ![methode_Reinert_4](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/me%CC%81thode_Reinert_4.png)
 
-Ce sont les visualisations liées à l'analyse factorielle de correspondance mais realisée autreument.  
+Ce sont les visualisations liées à l'analyse factorielle de correspondance mais realisée autreument. Ici on voit 3 classes qui sont ensemble et 3 qui sont liées mais quand même se trouvent à côte. Je peux prendre pour hypothèse que les 3 classes melangées décrivent le corpus principal ; les autres joue le rôle secondaire.
 
 ![methode_Reinert_1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/me%CC%81thode_Reinert_1.png)
 
@@ -156,3 +157,13 @@ Ce sont les visualisations liées à l'analyse factorielle de correspondance mai
 Sources qui ont été utilisés : 
  - [Enseigner l'Histoire par les Données](https://datahist.hypotheses.org/110)
  - [Iramuteq](http://iramuteq.org/Members/pmarchand/faut-il-faire-des-nuages-de-mots)
+
+## Question
+
+Lien vers le fichier [(.md)](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/question.md)
+
+## Bonus. Gephi
+
+![resultat_gephi](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/resultat_analyse_de_similitudes.png)
+
+Le lien vers le fichier gephi avec des relations entre les mots réalisé à la base de l'analyse de similitudes avec 283 formes [(.gephi)](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/resultat_analyse_de_similitudes.gephi)
