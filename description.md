@@ -21,7 +21,7 @@ Lien vers le fichier [(.epub)](https://github.com/soniyabbas/ABBAS_Soniya_les_my
 ## Troisième étape. Visualisation de données. 
 
 ### Statistiques
-Après le chargement du texte dans Iramuteq, on peut obtenir un fichier contenant les statistiques générales du texte en .CSV et le résume sous critères suivants :
+Après le chargement du texte dans Iramuteq, on peut obtenir un fichier contenant les statistiques générales du texte en .CSV et le résume selon les critères suivants :
 
 > Nombre de textes : 43 /*(43 variables = chapitres) <br>
 > Nombre d'occurrences : 121231 <br>
