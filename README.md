@@ -2,11 +2,11 @@
 
 ### Devoir à faire - M2 DNHD, Cours Indexation
 
-Ce dossier a fait dans le cadre du cours "Histoire des Humanités". Ici, vous retrouverez tous mes travails réalisés.
+Ce dossier a été réalisé dans le cadre du cours "Histoire des Humanités". Ici, vous retrouverez tous mes travaux.
 
-[Description](https://github.com/soniyabbas/ABBAS_Soniya_les_mysteres_de_paris/blob/master/description.md) de dossier.
+[Description](https://github.com/soniyabbas/ABBAS_Soniya_les_mysteres_de_paris/blob/master/description.md) du dossier.
 
-[Réponse à la quustion](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/question.md)
+[Réponse à la question](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/question.md)
 
 _ABBAS Soniya_
 
