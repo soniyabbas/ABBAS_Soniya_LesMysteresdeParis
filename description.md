@@ -148,7 +148,7 @@ Une autre représentation montre plus profondément le regroupage en fonction de
 
 ![methode_Reinert_4](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/me%CC%81thode_Reinert_4.png)
 
-Ce sont les visualisations liées à l'analyse factorielle de correspondance mais réalisée autrement. Ici on voit 3 classes qui sont ensemble et 3 qui sont liées mais quand se trouvent séparées du noyau. Je peux prendre pour hypothèse que les 3 classes mélangées décrivent le corpus principal ; les autres jouent un rôle secondaire.
+Ce sont les visualisations liées à l'analyse factorielle de correspondance mais réalisée autrement. Je peux prendre pour hypothèse que les 3 classes mélangées décrivent le corpus principal ; les autres jouent un rôle secondaire.
 
 ![methode_Reinert_1](https://github.com/soniyabbas/ABBAS_Soniya_LesMysteresdeParis/blob/master/visualisations/me%CC%81thode_Reinert_1.png)
 
